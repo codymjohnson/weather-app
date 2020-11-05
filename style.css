@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+main {
+    border: 10px solid slategray;
+    height: 50%;
+    width: 50%;
+}
+
+.modalOpener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
