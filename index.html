@@ -12,53 +12,30 @@
 
 <body>
     <header></header>
-    <main class="container">
+    <main class="container mt-5 rounded">
         <article class="row">
-            <section class="col-sm-2" id="searchCity">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop"
-                    id="modalOpener">
-                    Where ya headin, might I be askin?
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
-                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">
-                                    <div class="input-group flex-nowrap">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="addon-wrapping">search</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="enter City"
-                                            aria-label="Username" aria-describedby="addon-wrapping">
-                                    </div>
-                                </h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <strong>"Still round the corner, there may wait, a new road or a secret gate." <br>-
-                                    J.R.R. Tolkien</strong>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal"></button>
-                                <button type="button" class="btn btn-primary">Save</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
+            <!-- weather container -->
+            <section class="col-sm-6" id="searchCity">
+                <!-- weather searchbar -->
+                <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" id="inputField" type="search" placeholder="What City?"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" id="searchBtn"
+                            type="submit">Search</button>
+                    </form>
+                </nav>
+                <!-- city list -->
+                <ul id="cityList" class="list-group">
+                </ul>
             </section>
-
-
-
-
+            <!-- current city weather -->
+            <section class="col-sm-6">
+                <!-- current city -->
+                <div class="currentChoice"></div>
+                <!-- forecast -->
+                <div id="forecastDisplay" class="mt-2"></div>
+            </section>
         </article>
 
 
