@@ -6,7 +6,7 @@
 
 ## Description
 
-Awea
+A weather app that uses a weather API and JQuery to pull in weather data for the next 5 days depending on the imputed city.
 
 ## Table of Contents
 
@@ -20,15 +20,11 @@ Awea
     
 ## Installation
 
-console.table, inquirer and mysql.
+JQuery, javascript, html, and css
 
 ## Contributors
 
 Cody Johnson
-
-## Test
-
-run node index.js in the command line at root folder.
 
 ## Username
 
