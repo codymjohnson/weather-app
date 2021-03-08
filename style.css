@@ -1,17 +1,11 @@
 body {
-    background-color: lightblue;
-    box-sizing: border-box;
+    background-color: rgb(204, 203, 203) !important
 }
 
-main {
-    border: 10px solid slategray;
-    height: 50%;
-    width: 50%;
-    background: slategrey;
-}
-
-.modalOpener {
-    display: flex;
+header {
+    background-color: orange;
     justify-content: center;
-    align-items: center;
 }
+
+
+
