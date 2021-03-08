@@ -2,7 +2,7 @@
 
 ## Deployed Link
 
-[Deployed link]()
+[Deployed link](https://codymjohnson.github.io/weather-app/)
 
 ## Description
 
